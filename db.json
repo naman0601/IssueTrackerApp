@@ -1,0 +1,24 @@
+{
+  "issues": [
+    {
+      "title": "Login Page Error",
+      "description": "When I try to log in, I'm getting a '404 Page Not Found' error. This issue started occurring after the last update.",
+      "id": 2
+    },
+    {
+      "title": "Broken Image on Homepage",
+      "description": "The image on the homepage is not loading properly. It appears to be broken, and there's an 'Image Not Found' error.",
+      "id": 3
+    },
+    {
+      "title": "Dropdown Menu Bug",
+      "description": "There's a bug in the dropdown menu on the settings page. When I click on it, nothing happens, and I can't access the options",
+      "id": 4
+    },
+    {
+      "title": "Missing Contact Information",
+      "description": "I noticed that the contact information for our support team is missing from the 'Contact Us' page. It needs to be added as soon as possible.",
+      "id": 5
+    }
+  ]
+}

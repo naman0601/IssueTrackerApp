@@ -1,0 +1,21 @@
+<div class="issue-list-container">
+    <h2>Issue List</h2>
+    <table class="issue-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let issue of issues">
+          <td>{{ issue.title }}</td>
+          <td>{{ issue.description }}</td>
+          <td>
+            <button (click)="deleteIssue(issue.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
